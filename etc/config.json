@@ -1,0 +1,36 @@
+{
+	"input_line": "a+b",
+	"lang":
+	[
+		{
+			"rule": "B",
+			"alternative": "T+B",
+			"number_alt": 1
+		},
+		{
+			"rule": "B",
+			"alternative": "T",
+			"number_alt": 2
+		},
+		{
+			"rule": "T",
+			"alternative": "M",
+			"number_alt": 1
+		},
+		{
+			"rule": "T",
+			"alternative": "M*T",
+			"number_alt": 2
+		},
+		{
+			"rule": "M",
+			"alternative": "a",
+			"number_alt": 1
+		},
+		{
+			"rule": "M",
+			"alternative": "b",
+			"number_alt": 2
+		}
+	]
+}
